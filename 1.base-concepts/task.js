@@ -16,8 +16,8 @@ function solveEquation(a, b, c) {
  }
 
   else if (D > 0) {
-    arr[0] = -b + Math.sqrt(D)/ (2 * a);
-    arr[1] = -b - Math.sqrt(D)/ (2 * a);
+    arr[0] = (-b + Math.sqrt(D))/ (2 * a);
+    arr[1] = (-b - Math.sqrt(D))/ (2 * a);
     }
 
   return arr; // array
